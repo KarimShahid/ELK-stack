@@ -5,8 +5,8 @@ services:
     volumes:
       - ~/.aws:/root/.aws:ro
     environment:
-      AWS_REGION: ap-south-1
+      AWS_REGION: us-east-1
       CW_LOG_GROUP: python-logger
       CW_LOG_STREAM: shahid-stream
-      LOGSTASH_HOST: elk.tekbay.click
+      LOGSTASH_HOST: 172.31.3.134
       LOGSTASH_PORT: 5044

@@ -4,6 +4,6 @@ WORKDIR /app
 
 RUN pip install --no-cache-dir boto3
 
-COPY logger.py .
+COPY app.py .
 
-CMD ["python", "logger.py"]
+CMD ["python", "app.py"]
